@@ -1,0 +1,10 @@
+@media only screen and (max-width< 600px) {
+  
+.logo{
+    display: grid; grid-template-columns: 70% 50%;
+  }
+  .lo{
+    width: 30px;
+    height: 20px;
+  }
+}
