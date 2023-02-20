@@ -1,3 +1,22 @@
+var scrollToElement = function(el, ms){
+  var speed = (ms) ? ms : 600;
+  $('html,body').animate({
+      scrollTop: $(el).offset().top
+  }, speed);
+}
+function scrollabout()
+{
+  scrollToElement('#about', 600);
+
+}
+function order()
+{
+  scrollToElement('#order', 600);
+}
+
+
+
+
 (function($) { 
   $(function() { 
 
